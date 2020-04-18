@@ -53,8 +53,11 @@ class App extends Component {
 	};
 
 	deleteAll = () => {
-		this.setState({ todosArr: [] });
-		localStorage.clear();
+		let del = window.confirm("Delete Todos?");
+		if (del) {
+			this.setState({ todosArr: [] });
+			localStorage.clear();
+		}
 	};
 
 	markDone = (index) => {
