@@ -80,8 +80,8 @@ class App extends Component {
 		return (
 			<div className="container">
 				<div className="header">
-					<IconButton title="Clear List" onClick={this.deleteAll} aria-label="delete">
-						<ClearAllIcon fontSize="large" />
+					<IconButton className="delete" title="Clear List" onClick={this.deleteAll} aria-label="delete">
+						<ClearAllIcon style={{ fill: "white" }} fontSize="large" />
 					</IconButton>
 				</div>
 				<div className="inputField">
@@ -97,7 +97,7 @@ class App extends Component {
 					/>
 					<Box ml={0.5}>
 						<IconButton title="Add Todo" className="add" onClick={this.addTodo} aria-label="delete">
-							<AddCircleIcon fontSize="large" />
+							<AddCircleIcon style={{ fill: "#4bd863" }} fontSize="large" />
 						</IconButton>
 					</Box>
 				</div>

@@ -45,3 +45,7 @@ body {
 .add {
 	float: right;
 }
+
+.delete {
+	float: right;
+}
