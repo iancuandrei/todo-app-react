@@ -49,3 +49,15 @@ body {
 .delete {
 	float: right;
 }
+
+@media (max-width: 768px) {
+	.container {
+		width: 100vw;
+		height: 100vh;
+		border-radius: 0;
+	}
+
+	.header {
+		border-radius: 0;
+	}
+}
