@@ -93,7 +93,7 @@ class App extends Component {
 						error={this.state.empty}
 						value={this.state.todo}
 						id="outlined-basic"
-						label={this.state.empty ? "Error" : "Todo"}
+						label={this.state.empty ? "Add Todo" : "Todo"}
 						variant="outlined"
 						onKeyPress={this.keyPress}
 						onChange={this.handleChange}
